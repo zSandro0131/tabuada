@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins' ,  sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/893/812/large_2x/beautiful-night-sky-cosmic-background-abstract-universe-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    max-width: 550px;
+    background-color: rgba(5, 5, 5, 0.562);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.h1DIv h1 {
+    text-align: center;
+    color: white;
+}
+
+.inputDiv {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btnDiv button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.btnDiv button:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    transition: all .5s;
+}
+
+.inputDiv input {
+    width: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    border: none;
+    border-bottom: 1px black solid;
+    font-size: 1.50rem;
+}
+
+.tabuada {
+    background-color: rgba(85, 13, 13, 0.575);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: none;
+}
+
+.tabuada {
+    padding-left: 25%;
+}
